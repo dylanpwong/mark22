@@ -8,7 +8,6 @@ class HomeComponent extends React.Component {
     render(){
         return(
             <div class="homeContainer">
-                hello
                 <div>
 
                 </div>

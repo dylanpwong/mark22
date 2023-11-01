@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import * as fs from 'fs';
+import React, {  useEffect } from 'react';
+// import myData from './Descriptions.json';
 import './Descriptions.json'
+import './Description.scss'
 function AboutSection() {
 //   const [count, setCount] = useState(0);
 
@@ -11,9 +12,11 @@ function AboutSection() {
   });
 
   return (
-    <div>
+    <div class="main-body">
       <div>
-          
+      </div>
+      <div class="wave">
+        <div class="cloud"></div>
       </div>
     </div>
   );
